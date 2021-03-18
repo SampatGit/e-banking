@@ -4,6 +4,12 @@
         <parameter name="browser" value="chrome"/>
         <classes>
             <class name = "com.test.testcases.TestCase7"/>
+            <class name = "com.test.testcases.TestCase1"/>
+            <class name = "com.test.testcases.TestCase2"/>
+            <class name = "com.test.testcases.TestCase3"/>
+            <class name = "com.test.testcases.TestCase4"/>
+
+
         </classes>
     </test>
 </suite>
