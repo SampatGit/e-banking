@@ -3,7 +3,7 @@
     <test name = "Test">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name = "com.test.testcases.TestCase9"/>
+            <class name = "com.test.testcases.TestCase7"/>
         </classes>
     </test>
 </suite>

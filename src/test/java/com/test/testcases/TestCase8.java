@@ -4,7 +4,6 @@ package com.test.testcases;
 
 
 import com.test.resources.DriverSource;
-import org.junit.Before;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

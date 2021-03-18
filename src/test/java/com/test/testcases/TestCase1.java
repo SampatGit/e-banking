@@ -22,6 +22,7 @@ public class TestCase1 extends DriverSource {
         driverInstance.findElement(By.xpath("//button[contains(text(),'Show Message')]")).click();
         String displayedText = driverInstance.findElement(By.id("display")).getText();
         Assert.assertEquals(displayedText, sendText);
+        System.out.println("TC1 passed");
 
 
     }
