@@ -42,7 +42,7 @@ public class TestCase3 extends DriverSource {
         Thread.sleep(3000);
         String value = driverInstance.findElement(By.xpath("//p[@class='getall-selected']")).getText();
         System.out.println(value);
-        Assert.assertTrue(value.contains("Florida,New York"));
+        Assert.assertTrue(value.contains("New York"));
 
     }
 
