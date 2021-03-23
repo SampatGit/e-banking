@@ -14,9 +14,9 @@ import org.testng.asserts.SoftAssert;
 
 public class TestCase1 extends DriverSource {
 
-    @Test
-    public void displayMessage(){
-        String sendText = "HELLO SELENIUM";
+    @Test()
+    public void displayMessage(String textValue){
+        String sendText = textValue;
         driverInstance.get("https://www.seleniumeasy.com/test/basic-first-form-demo.html");
         driverInstance.findElement(By.id("user-message")).sendKeys(sendText);
         driverInstance.findElement(By.xpath("//button[contains(text(),'Show Message')]")).click();
